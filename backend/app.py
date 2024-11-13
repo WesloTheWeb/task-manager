@@ -6,8 +6,9 @@ CORS(app)
 
 # In-memory task storage with some test data
 tasks = [
-    {"id": 1, "title": "Test Task 1", "completed": False},
-    {"id": 2, "title": "Test Task 2", "completed": True}
+    {"id": 1, "title": "Make up the bed", "completed": False},
+    {"id": 2, "title": "Check Emails", "completed": True},
+    {"id": 3, "title": "Take out the trash", "completed": True}
 ]
 
 # Root route for testing
@@ -21,3 +22,4 @@ def get_tasks():
 
 if __name__ == '__main__':
     app.run(debug=True, port=5000)
+    
